@@ -1,4 +1,4 @@
-#Sun Sep 10 13:43:39 IST 2023
-base.0=C\:\\Users\\123\\Desktop\\gdsc_ui_design\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sun Sep 24 22:29:21 IST 2023
+base.0=C\:\\Users\\123\\OneDrive\\Documents\\GitHub\\DU-Hacks-Mobile-App\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -822,7 +822,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\123\\Desktop\\gdsc_ui_design\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\123\\OneDrive\\Documents\\GitHub\\DU-Hacks-Mobile-App\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1372,7 +1372,7 @@
             "outputFile": "com.example.gdsc_ui_design.app-merged_res-11:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\123\\Desktop\\gdsc_ui_design\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\123\\OneDrive\\Documents\\GitHub\\DU-Hacks-Mobile-App\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

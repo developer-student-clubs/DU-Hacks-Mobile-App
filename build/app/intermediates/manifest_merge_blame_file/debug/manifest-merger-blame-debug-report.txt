@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="19"
 9        android:targetSdkVersion="33" />
 10    <!--
 11         The INTERNET permission is required for development. Specifically,
@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\123\Desktop\gdsc_ui_design\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\123\Desktop\gdsc_ui_design\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\123\OneDrive\Documents\GitHub\DU-Hacks-Mobile-App\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\123\OneDrive\Documents\GitHub\DU-Hacks-Mobile-App\android\app\src\debug\AndroidManifest.xml:6:22-64
 16
 17    <application
 18        android:name="android.app.Application"

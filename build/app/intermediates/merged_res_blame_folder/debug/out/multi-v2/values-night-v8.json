@@ -4,7 +4,7 @@
             "outputFile": "com.example.gdsc_ui_design.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\123\\Desktop\\gdsc_ui_design\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\123\\OneDrive\\Documents\\GitHub\\DU-Hacks-Mobile-App\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
