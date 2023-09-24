@@ -26,8 +26,7 @@ class _HomePageState extends State<HomePage> {
       "AI / ML",
     ];
 
-    String googleImage =
-        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/contentbuilder/GDG-Bevy-ChapterThumbnail.png";
+    String googleImage = "https://duhacks.tech/img/LOGO.png";
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -164,14 +163,14 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Upcoming Events',
+                      'Upcoming DU Hacks Themes & Updates',
                       style: kRalewayMedium.copyWith(
                         color: kBlack,
                         fontSize: SizeConfig.blockSizeHorizontal! * 4,
                       ),
                     ),
                     Text(
-                      'See more',
+                      '',
                       style: kRalewayRegular.copyWith(
                         color: kGrey85,
                         fontSize: SizeConfig.blockSizeHorizontal! * 2.5,
@@ -344,7 +343,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Text(
-                      'See more',
+                      '',
                       style: kRalewayRegular.copyWith(
                         color: kGrey85,
                         fontSize: SizeConfig.blockSizeHorizontal! * 2.5,
@@ -400,7 +399,7 @@ class _HomePageState extends State<HomePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "DSC-DDU",
+                                "DU Hacks ${index + 1}.0",
                                 style: kRalewayMedium.copyWith(
                                   color: kBlack,
                                   fontSize: SizeConfig.blockSizeHorizontal! * 4,
@@ -415,7 +414,7 @@ class _HomePageState extends State<HomePage> {
                                   Row(
                                     children: [
                                       Text(
-                                        '20 / 01 /2023',
+                                        'Organized On\n 20 / 01 /2023 to 22 / 01 / 2023',
                                         style: kRalewayMedium.copyWith(
                                           color: kGrey85,
                                           fontSize:

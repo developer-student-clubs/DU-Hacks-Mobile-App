@@ -15,7 +15,7 @@ const Color kGrey8E = Color(0xff8E8E8E);
 const Color kGrey83 = Color(0xff838383);
 const Color kGrey85 = Color(0xff858585);
 
-const Color kBlue = Color.fromARGB(255, 16, 56, 93);
+const Color kBlue = Color.fromRGBO(14, 39, 118, 1);
 const Color kLightBlue = Color.fromARGB(255, 183, 210, 237);
 
 Gradient kLinearGradientBlack = LinearGradient(

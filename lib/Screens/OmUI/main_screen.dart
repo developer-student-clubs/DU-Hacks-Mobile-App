@@ -22,7 +22,7 @@ class _MainScreenState extends State<MainScreen> {
     pages = [
       ScreenHiddenDrawer(
         ItemHiddenMenu(
-            name: 'DSC - DDU',
+            name: 'DU Hacks',
             baseStyle: kRalewayMedium,
             colorLineSelected: kBlue,
             selectedStyle: kRalewayMedium),
