@@ -9,12 +9,20 @@
 # 🗒️ Checklist:
 
 - [] I have mentioned the issue number in my Pull Request.
-- []  I have gone through `rules of when PR will get merged.` 
+- [] I have gone through `rules of when PR will get merged.`
 - [] I have commented my code, particularly in hard-to-understand areas
 - [] I have created a helpful and easy to understand `README.md`
 - [] I have followed proper file structure.
-- [] I have gone through [CONTRIBUTING GUIDELINES.md](../blob/main/CONTRIBUTING.md).
+- [] I have gone through [CONTRIBUTING GUIDELINES.md](https://github.com/developer-student-clubs/DU-Hacks-Mobile-App/blob/main/.github/CODE_OF_CONDUCT.md).
 
- Thank you for contributing!❤️ 
+<hr>
 
-Don't forget to show some love by ⭐ the repository! 
+## Add your screenshots(Optional) 📸
+
+---
+
+<br>
+
+Thank you for contributing!❤️
+
+Don't forget to show some love by ⭐ the repository!
