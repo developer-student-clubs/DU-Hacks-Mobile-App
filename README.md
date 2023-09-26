@@ -131,11 +131,11 @@ We welcome contributions to enhance the DU-Hacks mobile app. If you'd like to co
 
 2. For Detailed Doucmentaion of this API refer to this : [API Endpoint Documentation](https://docs.google.com/document/d/1mfikxFtbEpYJBqVz9dVHtXajL2_0IbOgdJGeFCxc830/edit) <br>
 
-Please review our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+Please review our [Contribution Guidelines](./CONTRIBUTING.md) for more details.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](./LICENSE.txt).
 
 ---
 
