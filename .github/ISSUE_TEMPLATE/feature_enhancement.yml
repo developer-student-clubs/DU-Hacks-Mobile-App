@@ -1,0 +1,43 @@
+name: ⬆️ Feature enhancement
+description: Suggest an idea and show your creativity to enhance feature or Screen.
+title: "[Feature Enhancement]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out your new feature issue
+  - type: textarea
+    id: feature-enhancement
+    attributes:
+      label: ⬆️ Feature Enhancement Request
+      description: Describe the logic and also give a brief about the features.
+      placeholder: add all necessary details required for your new features.
+      value: "Feature(screen) logic and basic description"
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Point down the features & instructions
+      description: enhancement instructions
+      placeholder: Please include a summary, also include relevant motivation and context. 
+      value: "Feature enhancement points"
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Select program in which you are contributing
+      multiple: true
+      options:
+        - hacktoberfest
+        - Other
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [CODE OF CONDUCT](https://github.com/developer-student-clubs/DU-Hacks-Mobile-App/blob/main/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I follow [CONTRIBUTING GUIDELINE](https://github.com/developer-student-clubs/DU-Hacks-Mobile-App/blob/main/.github/CODE_OF_CONDUCT.md) of this project.
+          required: true
