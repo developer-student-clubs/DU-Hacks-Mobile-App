@@ -1,4 +1,4 @@
-name: 🆕🎮 new feature (screen) request
+name: 🆕new feature (screen) request
 description: Suggest an idea and show your creativity to add new feature (Screen).
 title: "[New Feature]: "
 
@@ -10,7 +10,7 @@ body:
   - type: textarea
     id: new-feature
     attributes:
-      label: 🎮 Feature Request
+      label: Feature Request
       description: Describe the logic and also give a brief about the features.
       placeholder: add all necessary details required for your new features.
       value: "Feature(screen) logic and basic description"
