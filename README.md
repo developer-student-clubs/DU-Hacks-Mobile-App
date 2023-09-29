@@ -80,7 +80,7 @@ Follow these steps to get the DU-Hacks mobile app up and running on your local e
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dwijgohil24/DU-Hacks-Mobile-App.git
+   git clone https://github.com/developer-student-clubs/DU-Hacks-Mobile-App.git
    ```
 
 2. Navigate to the project directory:
