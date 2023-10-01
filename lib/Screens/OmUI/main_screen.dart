@@ -5,6 +5,7 @@ import 'package:gdsc_ui_design/Screens/OmUI/RegisteredPage.dart';
 import 'package:gdsc_ui_design/utils/app_styles.dart';
 import 'package:gdsc_ui_design/utils/size_config.dart';
 import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/PricesScreen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -43,6 +44,14 @@ class _MainScreenState extends State<MainScreen> {
             colorLineSelected: kBlue,
             selectedStyle: kRalewayMedium),
         MembersPage(),
+      ),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+            name: 'Prize Information',
+            baseStyle: kRalewayMedium,
+            colorLineSelected: kBlue,
+            selectedStyle: kRalewayMedium),
+        PrizePage(),
       ),
     ];
   }
