@@ -4,27 +4,26 @@ import 'package:gdsc_ui_design/utils/size_config.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-
 class PrizePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-        body: FutureBuilder<List<Prize>>(
-          future: fetchPrizes(),
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return CircularProgressIndicator();
-            } else if (snapshot.hasError) {
-              return Text('Error: ${snapshot.error}');
-            } else if (snapshot.hasData) {
-              List<Prize> prizes = snapshot.data!;
-              return PrizeCardList(prizes: prizes);
-            } else {
-              return Text('No data available.');
-            }
-          },
-        ),
-      );
+    return Scaffold(
+      body: FutureBuilder<List<Prize>>(
+        future: fetchPrizes(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Text('Error: ${snapshot.error}');
+          } else if (snapshot.hasData) {
+            List<Prize> prizes = snapshot.data!;
+            return PrizeCardList(prizes: prizes);
+          } else {
+            return Text('No data available.');
+          }
+        },
+      ),
+    );
   }
 }
 
@@ -43,7 +42,8 @@ class Prize {
 }
 
 Future<List<Prize>> fetchPrizes() async {
-  final response = await http.get(Uri.parse('https://du-hacks-apis.vercel.app/api/v2/prizes/'));
+  final response = await http
+      .get(Uri.parse('https://du-hacks-apis.vercel.app/api/v2/prizes/'));
 
   if (response.statusCode == 200) {
     List<dynamic> data = jsonDecode(response.body)['data'];
@@ -64,7 +64,7 @@ class PrizeCardList extends StatelessWidget {
 
   PrizeCardList({required this.prizes});
 
-  static const List <String> trophy = [
+  static const List<String> trophy = [
     'assets/images/first-prize-trophy.jpg',
     'assets/images/second-prize-trophy.jpg',
     'assets/images/third-prize-trophy.jpg'
@@ -80,7 +80,9 @@ class PrizeCardList extends StatelessWidget {
           rewards: prizes[index].rewards,
           glowColor: prizes[index].title == "First Prize"
               ? Color(0xFFFFD700)
-              : (prizes[index].title == "Second Prize" ? Color(0xFFC0C0C0) : Color(0xFFCD7F32)),
+              : (prizes[index].title == "Second Prize"
+                  ? Color(0xFFC0C0C0)
+                  : Color(0xFFCD7F32)),
           trophyImage: prizes[index].title == "First Prize"
               ? trophy[0]
               : (prizes[index].title == "Second Prize" ? trophy[1] : trophy[2]),

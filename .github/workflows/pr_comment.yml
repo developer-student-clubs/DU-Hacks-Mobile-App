@@ -1,0 +1,50 @@
+name: Pull Request related comments
+on:
+  pull_request_target:
+    types:
+      - opened
+      - closed
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on Opening Pull Request
+        uses: wow-actions/auto-comment@v1
+        with:
+          github-token : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          pullRequestOpened: |
+           @{{ author }}, Thank you for creating PR! We will review it super soon. 😇❣️
+           We hope you have followed [CONTRIBUTING GUIDELINES](../blob/master/CONTRIBUTING.md).
+           Thank you for being an essential part of our community. Together, we'll keep building amazing things!
+           Don’t forget to ⭐ our repository!
+           Happy Coding!✨
+           Will See you soon❣️
+
+           
+      - name : Merging pull Request
+        uses : wow-actions/auto-comment@v1
+        with : 
+         github-token : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+         pullRequestMerged: |
+            @{{ author }} We're thrilled to inform you that your pull request has been successfully merged !
+            Your hard work, dedication, and expertise have made a significant impact on our project, and we couldn't be more grateful for your contributions.😇
+            Happy Coding! ✨
+            Will See you soon❣️
+
+
+      - name : Closing pull Request
+        uses : wow-actions/auto-comment@v1
+        with : 
+         github-token : ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+         pullRequestClosed: |
+            @{{ author }} ,I wanted to reach out and let you know that we have decided to close your pull request.🙇
+            While we truly appreciate your effort and dedication in contributing to our project, after careful consideration, we have determined that this particular PR may not align with our current goals or requirements.😢
+            In case of any issues, you can contact us on [Discord](https://discord.gg/mv4NTzN).
+            Thank you! ❣️
+            Happy Coding! ✨
+            Will See you soon❣️
+
+
+
+ 
+      
