@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/HomePage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/MembersPage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/RegisteredPage.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/sponsors_page.dart';
 import 'package:gdsc_ui_design/utils/app_styles.dart';
 import 'package:gdsc_ui_design/utils/size_config.dart';
 import 'package:hidden_drawer_menu/hidden_drawer_menu.dart';
@@ -52,6 +53,14 @@ class _MainScreenState extends State<MainScreen> {
             colorLineSelected: kBlue,
             selectedStyle: kRalewayMedium),
         PrizePage(),
+      ),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+            name: 'Sponsors',
+            baseStyle: kRalewayMedium,
+            colorLineSelected: kBlue,
+            selectedStyle: kRalewayMedium),
+            SponserPage(),
       ),
     ];
   }
