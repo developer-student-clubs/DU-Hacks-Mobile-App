@@ -145,6 +145,11 @@ Dwijsinh H Gohil - https://github.com/dwijgohil24 <br>
 Om Dhingani - https://github.com/om1512 <br>
 Vivek Patel - https://github.com/vivek201102 <br>
 
+## Contributors : 
+
+![Contributors](https://contrib.rocks/image?repo=developer-student-clubs/DU-Hacks-Mobile-App)
+
+<br>
 Show some Love by starring this repo ! 💙
 
 If you have any questions, encounter issues, or want to contribute, please don't hesitate to get in touch with us. Happy hacking!
