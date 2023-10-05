@@ -66,18 +66,16 @@ final kInputBorder = OutlineInputBorder(
   ),
 );
 
-final kRalewayBold = GoogleFonts.raleway(
-  fontWeight: FontWeight.w700,
+const kRalewayBold =
+    TextStyle(fontFamily: "Helvetica Neue", fontWeight: FontWeight.w900);
+
+const kRalewaySemibold = TextStyle(
+  fontFamily: "Helvetica Neue",
+  fontWeight: FontWeight.w800,
 );
 
-final kRalewaySemibold = GoogleFonts.raleway(
-  fontWeight: FontWeight.w600,
-);
+const kRalewayMedium =
+    TextStyle(fontFamily: "Helvetica Neue", fontWeight: FontWeight.w700);
 
-final kRalewayMedium = GoogleFonts.raleway(
-  fontWeight: FontWeight.w500,
-);
-
-final kRalewayRegular = GoogleFonts.raleway(
-  fontWeight: FontWeight.w400,
-);
+const kRalewayRegular =
+    TextStyle(fontFamily: "Helvetica Neue", fontWeight: FontWeight.normal);
