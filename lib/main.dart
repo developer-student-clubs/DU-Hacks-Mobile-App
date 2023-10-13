@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/main_screen.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/schedule_info.dart';
 import 'package:gdsc_ui_design/Screens/splace_screen.dart';
 
 void main() {
@@ -16,10 +18,6 @@ void main() {
   runApp(MaterialApp(
     theme: theme,
     debugShowCheckedModeBanner: false,
-    home: SplaceScreen(),
+    home: MainScreen(),
   ));
-
-
-
-  
 }

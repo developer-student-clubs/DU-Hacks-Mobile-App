@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/HomePage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/MembersPage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/RegisteredPage.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/schedule_info.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/sponsors_page.dart';
 import 'package:gdsc_ui_design/utils/app_styles.dart';
 import 'package:gdsc_ui_design/utils/size_config.dart';
@@ -61,6 +62,14 @@ class _MainScreenState extends State<MainScreen> {
             colorLineSelected: kBlue,
             selectedStyle: kRalewayMedium),
             SponserPage(),
+      ),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+            name: 'Schedule Information',
+            baseStyle: kRalewayMedium,
+            colorLineSelected: kBlue,
+            selectedStyle: kRalewayMedium),
+            ScheduleInfoPage(),
       ),
     ];
   }
