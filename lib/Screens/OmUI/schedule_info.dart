@@ -38,9 +38,6 @@ class _ScheduleInfoPageState extends State<ScheduleInfoPage> {
   void getData() async {
     try {
       ScheduleDataModel scheduleData = await fetchScheduleData();
-      scheduleData.data!.forEach((item) {
-        print(item.toString());
-      });
       // Do something with the data
     } catch (e) {
       print('Error: $e');
