@@ -5,14 +5,14 @@ import 'package:gdsc_ui_design/Screens/OmUI/main_screen.dart';
 import 'package:gdsc_ui_design/utils/app_styles.dart';
 import 'package:gdsc_ui_design/utils/size_config.dart';
 
-class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+class SplaceScreen extends StatefulWidget {
+  const SplaceScreen({super.key});
 
   @override
-  State<SplashScreen> createState() => _SplashScreenState();
+  State<SplaceScreen> createState() => _SplaceScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplaceScreenState extends State<SplaceScreen> {
   @override
   void initState() {
     super.initState();

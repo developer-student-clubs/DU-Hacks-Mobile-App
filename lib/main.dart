@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gdsc_ui_design/Screens/splash_screen.dart';
+import 'package:gdsc_ui_design/Screens/splace_screen.dart';
 
 void main() {
   final colorScheme = ColorScheme.fromSeed(
@@ -16,6 +16,6 @@ void main() {
   runApp(MaterialApp(
     theme: theme,
     debugShowCheckedModeBanner: false,
-    home: SplashScreen(),
+    home: SplaceScreen(),
   ));
 }
