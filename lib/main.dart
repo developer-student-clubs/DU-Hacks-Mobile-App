@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gdsc_ui_design/Screens/OmUI/main_screen.dart';
-import 'package:gdsc_ui_design/Screens/OmUI/schedule_info.dart';
 import 'package:gdsc_ui_design/Screens/splash_screen.dart';
 
 void main() {
