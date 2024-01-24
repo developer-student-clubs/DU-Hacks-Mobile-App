@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_ui_design/utils/app_styles.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 class MarkPresence extends StatefulWidget {
@@ -30,7 +31,7 @@ class _MarkPresenceState extends State<MarkPresence> {
                     hintText: 'Type here',
                     // prefixIcon: Icon(Icons.text_fields),
                     border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(8.0),
+                      borderRadius: BorderRadius.circular(8.0)
                     ),
                   ),
                 ),
@@ -42,7 +43,9 @@ class _MarkPresenceState extends State<MarkPresence> {
                     });
                   },
                   style: ElevatedButton.styleFrom(
-                      fixedSize: const Size.fromHeight(50.0)),
+                    fixedSize: const Size.fromHeight(50.0),
+                    backgroundColor: kBlue,
+                  ),
                   child: const Text('Generate QR Code'),
                 ),
                 const SizedBox(height: 26.0),
