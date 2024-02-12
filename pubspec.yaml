@@ -34,6 +34,7 @@ dependencies:
   google_fonts: ^5.1.0
   hidden_drawer_menu: ^3.0.1
   http: ^1.1.0
+  qr_flutter: ^4.1.0
   url_launcher: ^6.1.14
 
 dev_dependencies:

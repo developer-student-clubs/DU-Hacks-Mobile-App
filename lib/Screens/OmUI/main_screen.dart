@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/HomePage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/MembersPage.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/RegisteredPage.dart';
+import 'package:gdsc_ui_design/Screens/OmUI/mark_presence_screen.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/schedule_info.dart';
 import 'package:gdsc_ui_design/Screens/OmUI/sponsors_page.dart';
 import 'package:gdsc_ui_design/utils/app_styles.dart';
@@ -70,6 +71,14 @@ class _MainScreenState extends State<MainScreen> {
             colorLineSelected: kBlue,
             selectedStyle: kRalewayMedium),
             ScheduleInfoPage(),
+      ),
+      ScreenHiddenDrawer(
+        ItemHiddenMenu(
+            name: 'Mark Presence',
+            baseStyle: kRalewayMedium,
+            colorLineSelected: kBlue,
+            selectedStyle: kRalewayMedium),
+            MarkPresence(),
       ),
     ];
   }
